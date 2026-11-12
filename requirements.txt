@@ -1,0 +1,33 @@
+# #LLM Multi Agent Requirements
+# langchain>=0.2.0
+# langchain-core>=0.2.0
+# langchain-community>=0.2.0
+# langchain-openai>=0.1.0
+# streamlit>=1.30.0
+
+# #Tavili Search Tools
+# Tavili-python>=0.3.0
+
+# #Web Scrapting
+# beautifulsoup4>=4.12.2
+# readability-lxml
+# trafilatura
+# requests>=2.31.3
+# lxml>=5.4.1
+
+# LLM Multi-Agent Requirements
+langchain>=1.4.10
+langchain-core>=1.7.7
+langchain-community>=0.4.1
+langchain-openai>=1.7.4
+streamlit>=1.51.0
+
+# Tavily Search Tools
+tavily-python>=0.7.12
+
+# Web Scraping
+beautifulsoup4>=4.14.2
+readability-lxml>=0.8.4.1
+trafilatura>=2.0.0
+requests>=2.32.5
+lxml>=6.0.2
