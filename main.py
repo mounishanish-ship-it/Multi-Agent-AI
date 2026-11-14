@@ -1,6 +1,6 @@
 
-from src.tools.tools import web_search, scrape_url
+from src.pipeline.pipeline import run_search_pipeline
 
-output = web_search.invoke("What is the future of Hyderbad in india")
+topic = "Imact of the AI on the job market in 2026"
 
-print(output)
+run_search_pipeline(topic)

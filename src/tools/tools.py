@@ -64,7 +64,7 @@ def scrape_url(url: str) -> str:
 
         # Extract webpage text
         content = soup.get_text(separator="\n", strip=True)
-
+        content = content[:12000]
         return (
             f"Title: {title}\n"
             f"URL: {url}\n"
